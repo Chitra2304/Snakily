@@ -1,0 +1,42 @@
+.board {
+  outline: 2px solid rgb(134, 154, 189);
+}
+
+.score {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+.row {
+  height: 35px;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  outline: 1px solid rgb(134, 154, 189);
+  display: inline-block;
+}
+
+.cell-green {
+  background-color: green;
+}
+
+.cell-red {
+  background-color: red;
+}
+
+.cell-purple {
+  background-color: purple;
+}
+
+.cell-blue {
+  background-color: blue;
+}
+
+.difficulty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: full;
+}
